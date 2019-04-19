@@ -12,54 +12,7 @@ import java.util.Scanner;
 public class TomJerry {
     public static void main(String[] args) throws IOException {
 
-//            File file = new File("F:\\java2\\src\\main\\resources\\TomJerry.txt");
-//
-//            Scanner scanner = null;
 
-//            try {
-//                scanner = new Scanner(text);
-//            } catch (FileNotFoundException e) {
-//                e.printStackTrace();
-//            }
-//            while (scanner.hasNextLine()) {
-//                String line = scanner.nextLine();
-//                System.out.println(line);
-//            }
-
-
-//        try {
-//            //Opening the file
-//            scanner = new Scanner(text);
-//
-//            //Reading the file
-//            while(scanner.hasNext()) {
-//                String currentLine = scanner.nextLine();
-//                System.out.println(currentLine);
-//            }
-//        } catch (FileNotFoundException e) {
-//            System.out.println("The file " + text + "is not found !");
-//            e.printStackTrace();
-//        } finally {
-//            //Closing the file
-//            scanner.close();
-//        }
-
-//        FileInputStream fileInputStream = new FileInputStream(file);
-//        InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
-//        while (true){
-//            int c = inputStreamReader.read();
-//            if (c == -1){
-//                break;
-//            }
-//            System.out.println((char)c);
-//        }
-
-//        InputStreamReader isr = new InputStreamReader(new FileInputStream(file));
-//        int c;
-//        while ((c = isr.read()) != -1){
-//            System.out.print((char)c);
-//        }
-//        isr.close();
 
         FileReader fileReader = new FileReader("F:\\java2\\src\\main\\resources\\TomJerry.txt");
         BufferedReader br = new BufferedReader(fileReader);
